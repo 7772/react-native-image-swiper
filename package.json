@@ -1,7 +1,7 @@
 {
   "name": "react-native-image-swiper",
-  "version": "0.0.7",
-  "description": "Images Slider using react-native-swiper",
+  "version": "0.0.8",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
