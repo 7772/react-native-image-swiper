@@ -29,7 +29,7 @@ const ImagesSwiper = ({ images, autoplay, autoplayTimeout, showsPagination, widt
 };
 
 ImagesSwiper.propTypes = {
-  images: defaultIMG,
+  images: PropTypes.array,
   autoplay: PropTypes.bool,
   autoplayTimeout: PropTypes.number,
   showsPagination: PropTypes.bool,
@@ -38,7 +38,7 @@ ImagesSwiper.propTypes = {
 };
 
 ImagesSwiper.defaultProps = {
-  images: PropTypes.array,
+  images: defaultIMG,
   autoplay: false,
   autoplayTimeout: 1.5,
   showsPagination: false,
