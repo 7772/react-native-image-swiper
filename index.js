@@ -1,4 +1,4 @@
-import React from "react";
+import React, {Component} from 'react';
 import { View, Image } from "react-native";
 import PropTypes from "prop-types";
 import Swiper from "react-native-swiper";
