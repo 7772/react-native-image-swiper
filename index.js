@@ -1,8 +1,10 @@
 import React from "react";
-import { View, Image } from "react-native";
+import { View, Image, Dimensions } from "react-native";
 import PropTypes from "prop-types";
 import Swiper from "react-native-swiper";
 import { defaultIMG } from './utils/images';
+
+const { defaultWidth, defaultHeight } = Dimensions.get("window");
 
 const ImagesSwiper = ({ images, autoplay, autoplayTimeout, showsPagination, width, height }) => {
   return (
@@ -42,8 +44,8 @@ ImagesSwiper.defaultProps = {
   autoplay: false,
   autoplayTimeout: 1.5,
   showsPagination: false,
-  width: 400,
-  height: 300
+  width: defaultWidth,
+  height: defaultHeight - 400
 };
 
 export default ImagesSwiper;
