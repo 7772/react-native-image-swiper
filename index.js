@@ -4,9 +4,9 @@ import PropTypes from "prop-types";
 import Swiper from "react-native-swiper";
 
 const defaultIMG = [
-  "https://goo.gl/H153S7",
-  "https://goo.gl/VtPnwU",
-  "https://goo.gl/ehfSt1",
+  "https://firebasestorage.googleapis.com/v0/b/lotapp-9e84d.appspot.com/o/aster.jpg?alt=media&token=166e66b0-9c8e-4803-918e-25762c58dbda",
+  "https://firebasestorage.googleapis.com/v0/b/lotapp-9e84d.appspot.com/o/fan.jpg?alt=media&token=b419d507-9de8-4c4c-97e3-6b4eb2202e68",
+  "https://firebasestorage.googleapis.com/v0/b/lotapp-9e84d.appspot.com/o/stone.jpg?alt=media&token=e9d41537-7f26-4bfd-86eb-c2ef6fc58a9c"
 ];
 
 class ImagesSwiper extends Component {
