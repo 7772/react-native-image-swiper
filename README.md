@@ -10,15 +10,16 @@ A Simple Images Slider using [react-native-swiper](https://github.com/leecade/re
 
 1. init your app
 ```
-  $ react-native init ImagesSliderApp
+  $ react-native init ImagesSwiperApp
 ```
 
-2. npm install
+2. npm install in root
 ```
+  $ cd ImagesSwiperApp
   $ npm install --save react-native-image-swiper
 ```
 
-3. import ImagesSlider
+3. import ImagesSwiper
 ```
   $ import ImagesSwiper from "react-native-image-swiper";
 ```
@@ -26,19 +27,15 @@ A Simple Images Slider using [react-native-swiper](https://github.com/leecade/re
 # Usage
 
 ```
-
-import React, {Component} from 'react';
-import {StyleSheet, Text, View, ScrollView, Dimensions} from 'react-native';
 import ImagesSwiper from "react-native-image-swiper";
 
-const { width, height } = Dimensions.get("window");
 const customImg = [
   "https://firebasestorage.googleapis.com/v0/b/lotapp-9e84d.appspot.com/o/aster.jpg?alt=media&token=166e66b0-9c8e-4803-918e-25762c58dbda",
   "https://firebasestorage.googleapis.com/v0/b/lotapp-9e84d.appspot.com/o/fan.jpg?alt=media&token=b419d507-9de8-4c4c-97e3-6b4eb2202e68",
   "https://firebasestorage.googleapis.com/v0/b/lotapp-9e84d.appspot.com/o/stone.jpg?alt=media&token=e9d41537-7f26-4bfd-86eb-c2ef6fc58a9c"
 ];
 
-export default class App extends Component {
+class ImagesSwiperApp extends Component {
   render() {
     return (
       <View style={styles.container}>
@@ -82,6 +79,6 @@ const styles = StyleSheet.create({
 |`autoplay`|Boolean|Set to `true` enable auto play mode|`false` (autoplay has currently error on Android's Dev mode)|Optional|
 |`autoplayTimeout`|number|Delay between auto play transitions (in second).|1.5|Optional|
 |`showsPagination`|Boolean|Set to `true` make pagination visible|`false`|Optional|
-|`width`|number|width of image|`400`|Optional|
-|`height`|number|height of image|`400`|Optional|
+|`width`|number|width of image|400|Optional|
+|`height`|number|height of image|400|Optional|
 
