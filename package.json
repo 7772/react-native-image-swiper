@@ -18,5 +18,12 @@
   "bugs": {
     "url": "https://github.com/7772/react-native-image-swiper/issues"
   },
-  "homepage": "https://github.com/7772/react-native-image-swiper#readme"
+  "homepage": "https://github.com/7772/react-native-image-swiper#readme",
+  "dependencies": {
+    "react-native-swiper": "^1.5.13"
+  },
+  "peerDependencies": {
+    "react": ">= 15.x",
+    "react-native": ">= 0.47.x"
+  }
 }
